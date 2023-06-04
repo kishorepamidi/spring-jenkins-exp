@@ -34,6 +34,13 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>3.0.1</version>
+				<configuration>
+					<source>11</source>
+					<target>11</target>
+					<fork>true</fork>
+					<executable>C:\Program Files\Eclipse Adoptium\jdk-11.0.14.101-hotspot\bin\</executable>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
