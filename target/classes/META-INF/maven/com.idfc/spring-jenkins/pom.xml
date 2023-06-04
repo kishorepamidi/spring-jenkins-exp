@@ -27,6 +27,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.24</version>
+    <scope>provided</scope>
+</dependency>
+
 	</dependencies>
 
 	<build>
@@ -39,7 +46,7 @@
 					<source>11</source>
 					<target>11</target>
 					<fork>true</fork>
-					<executable>C:\Program Files\Eclipse Adoptium\jdk-11.0.14.101-hotspot\bin\</executable>
+					<executable>C:\Program Files\Eclipse Adoptium\jdk-11.0.14.101-hotspot\bin</executable>
 				</configuration>
 			</plugin>
 		</plugins>
